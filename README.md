@@ -7,7 +7,7 @@ This is the repository for creating a Docker Image from where you can running En
 * Download oepe-<Version>-<Eclipse-Release>-distro-linux-gtk-x86_64.zip to /software/Oracle/Enterprise Pack for Eclipse
 * Create a Jenkins Job from provided Jenkinsfile and start it to build the image and put it to the local registry.
 
-## Starting SQL Developer from Windows
+## Starting Enterprise Pack for Eclipse from Windows
 * At first your Linux VM should contain the screen package, you install it like "sudo apt-get -y install screen"
 * Start MobaXTerm and connect to your Linux VM via ssh
 * Check in the MobaXTerm Banner that X-11 forwarding is enabled
