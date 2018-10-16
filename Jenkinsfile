@@ -29,8 +29,8 @@ pipeline {
     }
   }
   environment {
-    SW_VERSION = '12.2.1.6'
-    SW_FILE = 'oepe-12.2.1.6-oxygen-distro-linux-gtk-x86_64.zip'
+    SW_VERSION = '12.2.1.8'
+    SW_FILE = 'oepe-12.2.1.8-oxygen-distro-linux-gtk-x86_64.zip'
     SW_DIR = '/software/Oracle/Enterprise Pack for Eclipse'
   }
 }
