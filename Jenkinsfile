@@ -10,7 +10,7 @@ pipeline {
   environment {
     SW_VERSION = '12.2.1.9'
     SW_FILE = 'oepe-12.2.1.9-photon-distro-linux-gtk-x86_64.zip'
-    SW_DIR = '/software/Oracle/Enterprise Pack for Eclipse'
+    SW_DIR = '/software/Oracle/OEPE'
   }
 
   options {
