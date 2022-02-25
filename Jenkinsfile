@@ -22,9 +22,9 @@ pipeline {
     stage('Build Oracle Enterprise Pack for Eclipse Image') {
       steps {
         sh '''
-          export DOCKER_BUILDKIT=1
           if [ ! -f $SW_FILE ]; then cp "$SW_DIR/$SW_FILE" $SW_FILE; fi
-          sh 'sudo docker build --progress=plain --tag oracle/oepe:$SW_VERSION --build-arg SW_FILE=$SW_FILE .
+          export DOCKER_BUILDKIT=1
+          docker build --progress=plain --tag oracle/oepe:$SW_VERSION --build-arg SW_FILE=$SW_FILE .
         '''
       }
     }
